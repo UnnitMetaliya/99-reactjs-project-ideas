@@ -1,0 +1,29 @@
+Basic:
+
+Create a simple web app showing random images at click of a button.
+
+Make use of any open source image library API. For example, unsplash, lorempicsum etc.
+
+Advanced:
+
+Create one more component enabling users provide number of images they want at click of a button. 
+
+This component can either be dropdown or text field depending on which is more comfortable for you.
+
+Add one more component letting users select size (small, medium or large) and display image with that size.
+
+How about making use of multiple APIs? Let users select from which source they want the images to be shown and render images from that API.
+
+For example..
+If user selects Flickr, make a call with Flickr API and get images from there. 
+If user selects GettyImages, make a call with GettyImages API and so on.
+
+Public APIs for Images:
+
+- Flickr
+- GettyImages
+- Imgur
+- Pixabay
+- Unsplash
+
+There are many. Explore them.

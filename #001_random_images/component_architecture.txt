@@ -1,0 +1,12 @@
+If you want you can accomplish this task with using just App component.
+
+However, that's not the right approach. You should create different component for different UI.
+
+For this app, you can have 
+
+ - App component
+ - Button component to render button
+ - Image component to render images
+ - Images component (if you decide to work on advance level) to render images
+ - SelectSource component to let user select API source
+ 
