@@ -14,5 +14,5 @@ Read the official React documentation for couple of days. Read few articles. Wat
 
 Have you got some project ideas already? Feel free to fork this repo, contribute and make a Pull Request. Please maintain the consistency of repo structure if you decide to do so.
 
-Goal: 99 Projects
+Goal: 99 Projects  
 Current: 0 Projects
