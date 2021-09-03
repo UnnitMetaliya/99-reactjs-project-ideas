@@ -1,0 +1,7 @@
+This is a simple project that performs the following tasks -
+
+1. Display question and options
+2. Add to score on selection of correct option
+3. Use timer to record time left for each question, move to next question on timeout
+
+You can find other optional feature ideas in the additional_features.txt file

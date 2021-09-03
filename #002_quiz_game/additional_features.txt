@@ -1,0 +1,5 @@
+A few optional additional features you could implement -
+
+1. Leaderboard: Users can enter a username and save theri score and name 
+2. Topic Selection: Users can get quizzes on particular topics
+3. Login System: Users can log in to save their scores and see their stats

@@ -1,0 +1,6 @@
+Components you could use -
+
+1. Question Component to dispaly question and options
+2. Options Components to hold option data
+3. Timer Component to show time left
+4. Score component to record score
