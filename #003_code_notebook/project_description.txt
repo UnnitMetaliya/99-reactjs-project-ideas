@@ -1,0 +1,14 @@
+CODE NOTEBOOK
+0000000000000
+
+user.story
+----------
+
+User can...
+  View a snippet
+  View a list of snippets
+  Add a snippet
+  Edit a snippet
+  Delete a snippet
+
+
