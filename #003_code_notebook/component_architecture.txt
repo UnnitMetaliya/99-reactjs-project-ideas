@@ -1,0 +1,30 @@
+CODE NOTEBOOK
+0000000000000
+
+component.architecture
+----------------------
+
+App.js
+  imports:
+    MainMenu.js
+    Notebook.js
+    App.css
+    { Container, Row, Col } from "reactstrap"
+
+Notebook.js
+  imports:
+    Snippet.js
+    { Row, Col, Button } from "reactstrap"
+
+Snippet.js
+  imports:
+    { Card, CardBody, CardTitle, Button, ButtonGroup } from "reactstrap"
+
+MainMenu.js
+  imports:
+    MainMenu.css
+    uuid from "uuid"
+    { Row, Button } from "reactstrap"
+    { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
+    { dark } from "react-syntax-highlighter/dist/esm/styles/prism"
+    
