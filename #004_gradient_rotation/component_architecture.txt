@@ -1,0 +1,14 @@
+Gradient Rotation
+#################
+
+__Component_Architecture__
+
+Index.js
+  Imports:
+   - StrictMode from react
+   - createRoot from react
+   - App.js
+
+App.js
+  Imports:
+    - Styles

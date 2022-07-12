@@ -1,0 +1,31 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #efefef;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button {
+  font-size: 15px;
+  font-weight: 600;
+  color: #efefef;
+  background-color: #aaaaaa;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  color: #ababab;
+  background-color: #cccccc;
+  transition: 0.15s ease;
+  transition-property: color, background-color;
+}

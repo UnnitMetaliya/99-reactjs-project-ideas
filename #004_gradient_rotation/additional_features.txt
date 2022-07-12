@@ -1,0 +1,8 @@
+Gradient Rotation
+#################
+
+__Additional_Features__
+
+You can:
+  - Add a button to randomly generate the gradient's colors
+  - Add a slider to choose how many colors the gradient should have
