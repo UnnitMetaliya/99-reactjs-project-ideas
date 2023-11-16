@@ -1,0 +1,13 @@
+While using React :-
+-> You can store images like: icons, badges in Public Folder.
+-> You can make a components folder in Src Folder which has basic components like : Navbar, Quote, etc.
+-> Navbar will be a simple navbar having an icon (if you want) and name of your project.
+-> Quote component will have the main Quote and author's name.
+-> Then you can proceed with making a button to change Quote.
+
+Public -> Images
+|
+Src -> Components -> Navbar, Quote, etc.
+|        |
+|       App.Js -> Main file where your components will get Rendered.
+Readme.md -> Description of your Project
