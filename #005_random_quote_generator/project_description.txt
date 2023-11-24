@@ -1,0 +1,28 @@
+Goal: To make a simple Web App using React.JS or Next.JS that displays Random Quotes.
+
+What you will learn in this Project: 
+-> Structuring a Web App Layout.
+-> Application of Basic CSS (Cascading Style Sheet).
+-> How to make api calls through fetch API.
+-> DOM (Document Object Model in Javascript)
+-> Basics and Fundamentals of React.JS
+
+API you can use: 
+Type.fit API
+(https://type.fit/api/quotes)
+
+Core Features (Must have) :-
+
+-> It should display a Random Quote with the name of Author below it.
+-> It should have a Change Quote Button that enables user to change Quote when user clicks on it.
+-> The Web App must be Responsive for all Devices.
+
+Advanced Features (Extras you can do) :-
+ 
+-> Add a Copy Button that copies the current quote and authors name to clipboard.
+-> Add a Social Media Button where a user can share the current quote through Social Media apps like Twitter, Tumblr ,etc.
+-> Add Animations while changing and loading quote.
+-> You can also you use CSS Component Libraries or CSS Frameworks like Bootstrap, Tailwind, etc.
+
+
+I am also attaching of an example in the example folder for reference but it will be better of learning rather than simply copying code from it.
