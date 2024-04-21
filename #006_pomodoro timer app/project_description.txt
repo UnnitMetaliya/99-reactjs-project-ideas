@@ -1,0 +1,26 @@
+Goal:
+The goal of this project is to create a simple Pomodoro Clock Web App using React.js. The Pomodoro Technique is a time management method that involves breaking work into intervals separated by short breaks. This Web App will help users stay focused and productive by providing a timer for each work session.
+
+What you will learn in this Project:
+- Structuring a Web App Layout.
+- Application of Basic CSS (Cascading Style Sheet).
+- Utilizing React.js for building interactive user interfaces.
+- Implementing a countdown timer functionality.
+- Managing state and handling user interactions.
+
+Core Features (Must have):
+- Display a countdown timer set to 25 minutes, representing a work session.
+- Include buttons for "Start", "Pause", and "Reset".
+- When the "Start" button is clicked, the timer should begin counting down from 25 minutes.
+- The "Pause" button should pause the countdown timer.
+- The "Reset" button should reset the timer back to 25 minutes.
+
+Advanced Features (Extras you can do):
+- Enhance the visual design of the timer and buttons using CSS.
+- Add sounds or visual cues when the timer reaches zero or when buttons are clicked.
+- Implement a session history feature to track completed work sessions.
+- Include a settings menu where users can customize the duration of work sessions and breaks.
+- Implement keyboard shortcuts for controlling the timer (e.g., Spacebar to start/pause, R key to reset).
+- Utilize React Router to create multiple pages, such as a "Settings" page or a "Session History" page.
+
+Feel free to refer to the provided example folder for inspiration, but focus on adapting the features to create a Pomodoro Clock Web App. This project will help solidify your understanding of React.js and enhance your skills in building user-friendly web applications.

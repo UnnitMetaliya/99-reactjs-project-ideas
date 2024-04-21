@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.timer {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}

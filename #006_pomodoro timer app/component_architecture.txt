@@ -1,0 +1,10 @@
+While using React :-
+-> You can make a components in Src Folder which has basic components like : Controls, Time, etc.
+-> Controls will be a simple set of buttons you may change the buttons to have an icon (if you want).
+-> Time component will have the main code to countdown from 25 mins to 0.
+
+Public -> Index.html
+|
+Src -> App.Js -> Main file where your components will get Rendered.
+|        
+Readme.md -> Description of your Project
