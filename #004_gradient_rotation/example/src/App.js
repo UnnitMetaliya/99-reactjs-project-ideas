@@ -1,59 +1,90 @@
 import React from "react";
-import "./styles.css";
+import "./App.css";
 
-const Gradient = (props) => {
+const Gradient = ({ gradientRotation, colors }) => {
   return (
     <div
       style={{
-        background:
-          "linear-gradient(" +
-          props.gradientRotation +
-          ", " +
-          props.firstColor +
-          ", " +
-          props.secondColor +
-          ")",
-        width: "200px",
-        height: "200px",
+        background: `linear-gradient(${gradientRotation}, ${colors.join(", ")})`,
+        width: "400px",
+        height: "400px",
         borderRadius: "50%",
-        boxShadow: "2px 4px 5px #444444"
+        boxShadow: "2px 4px 5px #444444",
       }}
       className="circle"
     ></div>
   );
 };
 
-class Slider extends React.Component {
+const ColorSlider = ({ numColors, changeNumColors }) => {
+  return (
+    <div style={{ marginTop: "20px" }}>
+      <label>COLORS: {numColors}</label>
+      <input
+        type="range"
+        min="2"
+        max="7"
+        value={numColors}
+        onChange={(e) => changeNumColors(e.target.value)}
+        style={{
+          width: "200px",
+          cursor: "pointer",
+          marginTop: "10px",
+        }}
+        className="ColorSlider"
+      />
+    </div>
+  );
+};
+
+class RotSlider extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      firstColor: this.generateRandom(111111, "color"),
-      secondColor: this.generateRandom(111111, "color"),
-      gradientRotationSlider: 180,
-      gradientRotation: "180deg"
+      colors: this.generateRandomColors(2),
+      gradientRotation: "180deg",
+      numColors: 2,
     };
   }
+
+  generateRandomColors(num) {
+    const colors = [];
+    for (let i = 0; i < num; i++) {
+      colors.push(this.generateRandom(111111, "color"));
+    }
+    return colors;
+  }
+
   generateRandom(input, type) {
     switch (type) {
       case "color":
-        let randomNumber = Math.round(input * (1 + Math.random()));
-        return "#" + randomNumber;
+        let randomNumber = Math.round(input * (1 + Math.random())).toString(16);
+        return "#" + randomNumber.padStart(6, '0');
       default:
         return Math.round(input * Math.random());
     }
   }
+
   makeGradient(value) {
     this.setState({
-      gradientRotationSlider: value,
-      gradientRotation: value + "deg"
+      gradientRotation: value + "deg",
     });
   }
+
+  changeNumColors(value) {
+    const numColors = parseInt(value, 10);
+    this.setState({
+      colors: this.generateRandomColors(numColors),
+      numColors: numColors,
+    });
+  }
+
   randomiseColor() {
     this.setState({
-      firstColor: this.generateRandom(111111, "color"),
-      secondColor: this.generateRandom(111111, "color")
+      colors: this.generateRandomColors(this.state.numColors),
     });
   }
+
   render() {
     return (
       <div>
@@ -63,38 +94,42 @@ class Slider extends React.Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "30px"
+            marginTop: "30px",
           }}
         >
           <Gradient
             gradientRotation={this.state.gradientRotation}
-            firstColor={this.state.firstColor}
-            secondColor={this.state.secondColor}
+            colors={this.state.colors}
           />
         </div>
         <div style={{ marginTop: "40px" }}>
+          <label>ROTATE: </label>
           <input
             type="range"
             min="0"
             max="360"
-            defaultValue={this.state.gradientRotationSlider}
+            defaultValue={180}
             onChange={(e) => this.makeGradient(e.target.value)}
             style={{
               width: "200px",
-              cursor: "pointer"
+              cursor: "pointer",
             }}
-            className="slider"
+            className="RotSlider"
           />
         </div>
+        <ColorSlider
+          numColors={this.state.numColors}
+          changeNumColors={(value) => this.changeNumColors(value)}
+        />
         <button
           onClick={() => this.randomiseColor()}
           style={{
             cursor: "pointer",
-            marginTop: "15px"
+            marginTop: "15px",
           }}
           className="button"
         >
-          Change Color
+          CHANGE COLOR
         </button>
       </div>
     );
@@ -105,7 +140,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="background">
-        <Slider />
+        <RotSlider />
       </div>
     </div>
   );
