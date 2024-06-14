@@ -1,0 +1,20 @@
+The objective of this project is to create a simple clone of the popular game "Flappy Bird" using ReactJS. 
+The game will involve a bird that the player can control by clicking or pressing a key to make it "flap" and rise. 
+The goal is to navigate through an endless series of obstacles (pipes) without hitting them.
+
+
+Features -- 
+
+Game Area: A defined game area where the bird can fly.
+
+Bird Movement: The bird should move up when the player clicks or presses a key and fall due to gravity when no action is taken.
+
+Pipes: A series of vertically aligned pipes with a gap that the bird must pass through.
+
+Collision Detection: Detect collisions between the bird and the pipes or the ground.
+
+Scoring: Keep track of the score based on the number of pipes successfully passed.
+
+Game Over: End the game and show the final score when a collision occurs.
+
+Restart: Option to restart the game after it ends.
