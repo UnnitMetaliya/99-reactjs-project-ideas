@@ -1,0 +1,6 @@
+Requirements
+React: The project is built using React for component-based architecture.
+State Management: Use of React's useState and useContext hooks for managing state.
+Styling: CSS or a CSS-in-JS library for styling the components.
+LocalStorage: Persist user data using the browser's localStorage.
+Form Validation: Ensure form inputs are validated before submission.
