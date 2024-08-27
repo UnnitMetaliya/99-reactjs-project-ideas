@@ -1,0 +1,19 @@
+Technologies Used
+
+    ReactJS: For building the user interface.
+    CSS: For styling the game components.
+    HTML5: For the structure of the game area.
+
+Components
+
+    App: The main component that holds the game logic and state.
+    Bird: A component representing the bird.
+    Pipe: A component representing the pipes.
+    GameArea: A component representing the game area.
+
+State Management
+
+    Game State: Keeps track of whether the game is running, paused, or over.
+    Bird Position: Keeps track of the bird's vertical position.
+    Pipe Positions: Keeps track of the positions of the pipes.
+    Score: Keeps track of the player's score.
