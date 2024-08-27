@@ -1,0 +1,14 @@
+Components
+1)ExpenseForm Component
+	Displays a form to add new expenses.
+	Fields include date, description, category, and amount.
+2)ExpenseList Component
+	Shows a list of all recorded expenses.
+	Allows filtering expenses by date and category.
+3)ExpenseItem Component
+	Displays individual expense details.
+	Includes options to edit or delete the expense.
+4)ExpenseFilter Component
+	Provides options to filter expenses by date and category.
+5)ExpenseSummary Component
+	Displays a summary of total expenses and categorizes spending.
