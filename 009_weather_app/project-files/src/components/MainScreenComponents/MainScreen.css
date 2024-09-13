@@ -1,3 +1,23 @@
 .main_screen__container {
     margin: 60px;
 }
+
+.main_screen__current_info {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.main_screen__current_info h1 {
+    font-size: 164px;
+    color: white;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.main_screen__current_info p {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
