@@ -2,15 +2,15 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
-    
+    font-family:  "Inter", system-ui;
 }
 
 
 html {
-    background: linear-gradient(to top right, #A8C8ED, #7673DC)
+    background: linear-gradient(to top right, #F0B5CE, #8C6BAE)
 }
 
 /*
 
-red gradient #FF9696, #8C6BAE
+red gradient #F0B5CE, #8C6BAE
 blue gradient #A8C8ED, #7673DC

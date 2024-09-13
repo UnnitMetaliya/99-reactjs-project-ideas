@@ -8,24 +8,24 @@
     display: flex;
     width: 93px;
     border-radius: 100px;
-    background-color: rgb(255, 255, 255, 0.16);
+    background-color: rgba(255, 255, 255, 0.16);
     height: 40px;
     justify-content: space-around;
 
 }
 
 .top_bar_info__temp_switch a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 0 10px;
     font-size: 1.6rem;
     text-align: center;
     width: 40px;
     margin: auto;
+    font-weight: bold;
 }
 
 .active_switcher {
-    background-color: red;
+    background: rgba(255, 255, 255, 0.18);
     border-radius: 100px;
-    width: 50%;
 }
