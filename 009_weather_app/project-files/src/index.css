@@ -2,4 +2,15 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+
+html {
+    background: linear-gradient(to top right, #A8C8ED, #7673DC)
+}
+
+/*
+
+red gradient #FF9696, #8C6BAE
+blue gradient #A8C8ED, #7673DC

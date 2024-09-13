@@ -6,3 +6,6 @@ The goal of this project is to create a responsive, modern, dynamic weather fore
 - Show current time & date
 - Background video representing the current weather conditions (rainy == rainy-bg-vid)
 - Show week forecast
+
+## Advanced Features
+- A switch for the background image and video formats

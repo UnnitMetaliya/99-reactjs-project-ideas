@@ -1,0 +1,31 @@
+.top_bar_info__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top_bar_info__temp_switch {
+    display: flex;
+    width: 93px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255, 0.16);
+    height: 40px;
+    justify-content: space-around;
+
+}
+
+.top_bar_info__temp_switch a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 40px;
+    margin: auto;
+}
+
+.active_switcher {
+    background-color: red;
+    border-radius: 100px;
+    width: 50%;
+}
