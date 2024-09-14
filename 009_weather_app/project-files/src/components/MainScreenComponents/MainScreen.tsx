@@ -23,7 +23,7 @@ const MainScreen = () => {
             <div className='main_screen__current_info'>
                 <div className='main_screen__current_info_temperature_box'>
                     <h1>{temp == 0 ? currentTemperature * (9/5) + 32 : currentTemperature}</h1>
-                    <p>°C</p>
+                    <p>{temp == 0 ? '°F' : '°C'}</p>
                 </div>
                 
                 {/** Day month year */}
