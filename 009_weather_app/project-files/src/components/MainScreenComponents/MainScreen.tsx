@@ -2,16 +2,23 @@ import { useState } from 'react'
 
 import './MainScreen.css'
 
+// Icons
 import WindDirectionIcon from '../../assets/info_icons/info_icon_winddir.png';
 import HumidityIcon from '../../assets/info_icons/info_icon_humidity.png';
 import RainIcon from '../../assets/info_icons/info_icon_rain.png'
 
+// Components
 import TopBarInfo from './TopBarInfo/TopBarInfo'
 
+// Weather Data
+import weatherData from '../../api/weatherData';
+import getCoordinates from '../../api/locationData';
+
 const MainScreen = () => {
+    // configures the degrees to be used in the main screen (celsius or fahrenheit)
     const [temp, setTemp] = useState(0)
 
-
+    // change for the api info
     let currentDate = new Date();
     let currentTemperature = 23;
 
