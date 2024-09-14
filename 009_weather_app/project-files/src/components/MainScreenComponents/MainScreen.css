@@ -4,20 +4,55 @@
 
 .main_screen__current_info {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 50px
+}
+
+.main_screen__current_info_temperature_box {
+    display: flex;
     flex-direction: row;
     height: 200px;
 }
 
-.main_screen__current_info h1 {
+.main_screen__current_info_temperature_box h1 {
     font-size: 164px;
     color: white;
     font-weight: bold;
     margin-top: 0;
+    text-shadow: 1px 1px 2px gray;
 }
 
-.main_screen__current_info p {
+.main_screen__current_info_temperature_box p {
     color: white;
     font-size: 24px;
     margin-top: 20px;
     font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.main_screen__current_info_current {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+
+.main_screen__current_info_additional_info {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+    font-size: 22px;
+    margin-top: 20px;
+    padding: auto;
+}
+
+.main_screen__current_info_additional_info_config img {
+    width: 22px;
+    height: 22px;
+    justify-self: center;
 }

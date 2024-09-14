@@ -29,3 +29,10 @@
 - SearchBar: Shows the currently selected location, which is hidden if the search bar is active. If not, then display search icon.
 - SunInfo: Shows sunrise, golden hour, sunset times.
 - ExtraInfo: Shows Air quality and uv index gauges.
+
+
+### Current Issues:
+
+For some fucked up reason I'm going to have to use the OpenMeteo Geolocation API first, to get the coordinates for the desired location, which are going to be used in the OpenMeteo Weather Forecast API.
+
+So the current issue is creating the chain of operations which will result in correct weather forecast.
