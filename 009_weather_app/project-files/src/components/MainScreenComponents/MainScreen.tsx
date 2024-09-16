@@ -11,16 +11,21 @@ import RainIcon from '../../assets/info_icons/info_icon_rain.png'
 import TopBarInfo from './TopBarInfo/TopBarInfo'
 
 // Weather Data
-import weatherData from '../../api/weatherData';
-import getCoordinates from '../../api/locationData';
+import fetchWeatherData from '../../api/weatherData';
 
 const MainScreen = () => {
     // configures the degrees to be used in the main screen (celsius or fahrenheit)
     const [temp, setTemp] = useState(0)
 
+    let cityInfo = fetchWeatherData('Rauma');
+    console.log(cityInfo);
+
     // change for the api info
     let currentDate = new Date();
-    let currentTemperature = 23;
+    let currentTemperature = 20;
+
+    
+    // console.log(fetchWeatherData(61.12724, 21.51127));
 
     return (
         <div className='main_screen__container'>
