@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainScreenContainer {
+    width: 60%;
+}
+
+.additionalScreenContainer {
+    width: 40%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    border-left: 2px solid transparent;
+    border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(238, 238, 238, 0.4)) 1;
+}
