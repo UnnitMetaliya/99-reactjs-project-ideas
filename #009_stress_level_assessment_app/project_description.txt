@@ -1,0 +1,23 @@
+Stress Level Assessment App
+
+Tier: Intermediate
+
+A React-based application that helps users assess their stress levels through a self-evaluation quiz. The app analyzes responses and provides personalized relaxation techniques and mental wellness tips.
+
+Features:
+  - Interactive questionnaire covering mood, sleep quality, work-life balance, and anxiety levels.
+  - Real-time stress score calculation (Low, Moderate, High).
+  - Personalized relaxation suggestions (e.g., breathing exercises, guided meditation).
+  - Progress tracking dashboard with trend graphs.
+  - Optional: Background calming music and community support.
+
+Tech Stack:
+  - React.js, TypeScript, Tailwind CSS
+  - Redux / React Context API
+  - Firebase / Supabase for optional history storage
+  - OpenAI API / Mindfulness API for AI-driven analysis
+
+Real-World Use Cases:
+  - Helps individuals monitor and manage their stress.
+  - Provides self-help tools for mental well-being.
+  - Can be expanded with therapist recommendations.

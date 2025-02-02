@@ -1,0 +1,24 @@
+Stress Level Assessment App - Component Architecture
+
+1. App Component (Root)
+    - Handles routing and global state management.
+
+2. Header Component
+    - Displays the app title and navigation bar.
+
+3. Quiz Component
+    - Contains multiple-choice questions.
+    - Calculates stress score in real time.
+
+4. Result Component
+    - Shows categorized stress level (Low, Moderate, High).
+    - Displays personalized recommendations.
+
+5. Dashboard Component (Optional)
+    - Provides stress level history visualization using graphs.
+
+6. Relaxation Techniques Component
+    - Shows guided breathing exercises, meditation, and relaxation tips.
+
+7. API Service
+    - Fetches mindfulness resources and stress management articles.
