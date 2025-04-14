@@ -1,0 +1,17 @@
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  width: 100%;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+
+  button {
+    cursor: pointer;
+    background: #ffc2d1;
+    font-size: large;
+    font-weight: 600;
+    width: 35%;
+    border: 1px solid white;
+  }
+}

@@ -1,0 +1,12 @@
+.expense-chart {
+    height: 35%;
+    width: 35%;
+    align-items: center;
+}
+
+.expense-summary-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

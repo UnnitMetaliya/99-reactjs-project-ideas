@@ -1,0 +1,32 @@
+#expenseForm {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1rem;
+    align-items: center;
+}
+#date {
+  width: fit-content;
+}
+#description,
+#category {
+  width: 50%;
+}
+
+.expense-form {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    background: #ff8fab;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5vw;
+    margin-top: 5vw;
+    flex-direction: column;
+    align-items: center;
+}
+.expense-form-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+.item-details, .edit-expense {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+    height: 2rem;
+    align-items: center;
+    margin: 0;
+    hr {
+        width: 1px;
+        height: 100%;
+        margin: 0;
+        background: black;
+    }
+    li {
+        width: 15vw;
+    }
+}
+.expense-item {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .edit-expense {
+    width: 4rem;
+} */
+
+.edit-button {
+    width: 4rem;
+}
